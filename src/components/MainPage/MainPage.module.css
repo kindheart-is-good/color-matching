@@ -1,0 +1,42 @@
+.wrapper {
+    /*margin: 0 auto;*/
+
+    width: 100%;
+    max-width: 1710px;
+    /*height: 100%;
+    max-height: 955px;*/
+    height: 955px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "top top top"
+    "midL midC midR"
+    "bot bot bot";
+}
+
+.first {
+    grid-area: midL;
+    background-color: cyan;
+}
+
+.second {
+    grid-area: midC;
+    background-color: magenta;
+}
+
+.third {
+    grid-area: midR;
+    background-color: yellow;
+}
+
+.top {
+    grid-area: top;
+    background-color: #ffffff;
+}
+
+.bot {
+    grid-area: bot;
+    background-color: #373737;
+}
