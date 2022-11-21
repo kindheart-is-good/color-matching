@@ -1,0 +1,23 @@
+.header {
+    grid-area: top;
+
+    /*display: inline-block;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #ffffff;
+}
+
+.headerMenuItem {
+    padding-top: 30px;
+    padding-inline: 50px;
+    color: grey;
+    text-decoration: none;
+}
+
+.active {
+    padding-top: 30px;
+    padding-inline: 50px;
+    text-decoration: none;
+}

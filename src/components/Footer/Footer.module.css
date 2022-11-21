@@ -1,0 +1,11 @@
+.footer {
+    grid-area: bot;
+
+    background-color: #373737;
+    text-align: center;
+}
+
+.footer span {
+    position: absolute;
+    bottom: 10px;
+}

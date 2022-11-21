@@ -1,0 +1,24 @@
+.wrapper {
+    grid-area: mid;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "midL midC midR";
+}
+
+.first {
+    grid-area: midL;
+    background-color: cyan;
+}
+
+.second {
+    grid-area: midC;
+    background-color: magenta;
+}
+
+.third {
+    grid-area: midR;
+    background-color: yellow;
+}
