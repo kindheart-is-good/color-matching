@@ -1,0 +1,44 @@
+{
+  "colors": [
+    {
+      "colorSection": "white",
+      "hexadecimalValue": "#ffffff",
+      "id": 1
+    },
+    {
+      "colorSection": "white",
+      "hexadecimalValue": "#f8f8f8",
+      "id": 2
+    },
+    {
+      "colorSection": "white",
+      "hexadecimalValue": "#f3f3f3",
+      "id": 3
+    },
+    {
+      "colorSection": "white",
+      "hexadecimalValue": "#f2f2f2",
+      "id": 4
+    },
+    {
+      "colorSection": "white",
+      "hexadecimalValue": "#e5e5e5",
+      "id": 5
+    },
+    {
+      "colorSection": "white",
+      "hexadecimalValue": "#f3f3f3",
+      "id": 6
+    },
+    {
+      "colorSection": "grey",
+      "hexadecimalValue": "#d4d4d4",
+      "id": 100
+    },
+    {
+      "colorSection": "grey",
+      "hexadecimalValue": "#9f9f9f",
+      "id": 101
+    }
+  ]
+}
